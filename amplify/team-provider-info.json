@@ -14,6 +14,15 @@
     "categories": {
       "auth": {
         "tenantrentmanagement1b566294": {}
+      },
+      "hosting": {
+        "amplifyhosting": {
+          "appId": "d3oxe8f0nqn69w",
+          "type": "cicd"
+        }
+      },
+      "api": {
+        "tenantrentmanagement": {}
       }
     }
   }
