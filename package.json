@@ -19,7 +19,6 @@
   "bugs": {
     "url": "https://github.com/Stanley050677/tenant-rent-management/issues"
   },
-  "homepage": "https://main.d3oxe8f0nqn69w.amplifyapp.com/",
   "dependencies": {
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
