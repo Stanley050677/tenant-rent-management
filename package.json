@@ -19,7 +19,7 @@
   "bugs": {
     "url": "https://github.com/Stanley050677/tenant-rent-management/issues"
   },
-  "homepage": "https://github.com/Stanley050677/tenant-rent-management#readme",
+  "homepage": ".",
   "dependencies": {
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
