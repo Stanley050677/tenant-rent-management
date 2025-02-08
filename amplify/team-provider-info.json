@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-tenantrentmanagement-dev-19f29-authRole",
+      "UnauthRoleArn": "arn:aws:iam::430118850650:role/amplify-tenantrentmanagement-dev-19f29-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::430118850650:role/amplify-tenantrentmanagement-dev-19f29-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-tenantrentmanagement-dev-19f29-deployment",
+      "UnauthRoleName": "amplify-tenantrentmanagement-dev-19f29-unauthRole",
+      "StackName": "amplify-tenantrentmanagement-dev-19f29",
+      "StackId": "arn:aws:cloudformation:us-east-1:430118850650:stack/amplify-tenantrentmanagement-dev-19f29/ec9465b0-e5be-11ef-8fe2-0e60113ae2bb",
+      "AmplifyAppId": "d3oxe8f0nqn69w"
+    },
+    "categories": {
+      "auth": {
+        "tenantrentmanagement1b566294": {}
+      }
+    }
+  }
+}
