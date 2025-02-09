@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
-import { Authenticator, AmplifySignOut } from '@aws-amplify/ui-react';
+import { Authenticator } from '@aws-amplify/ui-react';
 import AdminDashboard from './components/Admin/AdminDashboard';
 import TenantDashboard from './components/Tenant/TenantDashboard';
 
@@ -16,7 +16,7 @@ function App() {
               <li><Link to="/tenant">Tenant Dashboard</Link></li>
             </ul>
           </nav>
-          <AmplifySignOut />
+          <Authenticator.SignOut />
           <Routes>
             <Route path="/" element={<h1>Welcome to Tenant Rent Management</h1>} />
             <Route path="/admin" element={<AdminDashboard />} />
