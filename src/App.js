@@ -1,4 +1,5 @@
 import React from 'react';
+import { AmplifyAuthenticator, AmplifySignOut } from '@aws-amplify/ui-react';
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
 import AdminDashboard from './components/Admin/AdminDashboard';
 import TenantDashboard from './components/Tenant/TenantDashboard';
@@ -34,5 +35,6 @@ function App() {
 }
 
 export default App;
+
 
 
