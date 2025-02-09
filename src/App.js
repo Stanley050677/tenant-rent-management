@@ -24,7 +24,7 @@ function App() {
           </Routes>
         </div>
       </BrowserRouter>
-    <Authenticator>
+    </Authenticator>
   );
 }
 
