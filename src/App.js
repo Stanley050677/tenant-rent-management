@@ -1,12 +1,12 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
-import { AmplifyAuthenticator, AmplifySignOut } from '@aws-amplify/ui-react';
+import { Authenticator, AmplifySignOut } from '@aws-amplify/ui-react';
 import AdminDashboard from './components/Admin/AdminDashboard';
 import TenantDashboard from './components/Tenant/TenantDashboard';
 
 function App() {
   return (
-    <AmplifyAuthenticator>
+    <Authenticator>
       <BrowserRouter>
         <div>
           <nav>
@@ -24,7 +24,7 @@ function App() {
           </Routes>
         </div>
       </BrowserRouter>
-    </AmplifyAuthenticator>
+    <Authenticator>
   );
 }
 
